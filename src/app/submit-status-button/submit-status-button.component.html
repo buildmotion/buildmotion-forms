@@ -1,0 +1,12 @@
+<button #submitButton *ngIf="!showSubmittingTemplate" type="submit" [disabled]="!canSubmit" [class]="className ||''" (click)="onSubmit()">
+    <span #submitTemplateContent><ng-content select="submitTemplate"></ng-content></span> 
+    <span *ngIf="submitTemplateContent.children.length === 0">
+        <i class="glyphicon glyphicon-save"></i>&nbsp;Submit
+    </span>
+</button>
+<button #submittingButton *ngIf="showSubmittingTemplate" type="button" [disabled]="true" [class]="className ||''">
+    <span #submittingTemplateContent><ng-content select="submittingTemplate"></ng-content></span>
+    <span *ngIf="submittingTemplateContent.children.length === 0">
+        <i class="fa fa-refresh fa-spin"></i>&nbsp;Submitting...
+    </span>
+</button>
