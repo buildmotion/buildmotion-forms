@@ -1,22 +1,22 @@
 {
   "name": "buildmotion-forms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Angular custom module that contains forms elements for BuildMotion Angular applications...",
   "main": "index.js",
   "scripts": {
-      "transpile": "ngc",
-      "build": "npm run transpile"
+    "transpile": "ngc",
+    "build": "npm run transpile"
   },
   "repository": {
-      "type": "git",
-      "url": "https://build-hybridmobileapp-net.visualstudio.com/_git/BuildMotion.Commerce"
+    "type": "git",
+    "url": "https://github.com/buildmotion/buildmotion-forms"
   },
   "keywords": [
-      "BuildMotion",
-      "Build Motion",
-      "Angular",
-      "framework",
-      "forms"
+    "BuildMotion",
+    "Build Motion",
+    "Angular",
+    "framework",
+    "forms"
   ],
   "author": "matt.vaughn@buildmotio.com www.buildmotion.com",
   "license": "MIT",
