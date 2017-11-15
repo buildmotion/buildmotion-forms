@@ -11,4 +11,4 @@ import { SubmitStatusButtonComponent } from './submit-status-button/submit-statu
     SubmitStatusButtonComponent
   ]
 })
-export class buildmotionFormsModule { }
+export class BuildMotionFormsModule { }
